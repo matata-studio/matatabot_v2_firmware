@@ -1,0 +1,8 @@
+esp_toml_version = 1.0
+firmware_images_url = "https://matata-studio.github.io/matatabot_v2_firmware/bin/"
+
+supported_apps = ["matatabot_v2_v3_1_3"]
+
+[matatabot_v2_v3_1_3]
+chipsets = ["ESP32S3"]
+image.esp32s3 = "matatabot_v2_v3.1.3_0x0_20260625.bin"
